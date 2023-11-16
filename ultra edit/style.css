@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 60px;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo h2 {
+    margin: 15px;
+    font-weight: 900;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.downloadContent {
+    margin-top: 80px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadContent h4 {
+    display: inline-block;
+}
+
+.downloadContent img {
+    width: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+.forMac {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px 0px 180px;
+    font-size: 25px;
+}
+
+.forMac button {
+    display: block;
+    /* width: 200px; */
+    padding: 10px 20px;
+    margin: 40px 280px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #44a6ae;
+    color: white;
+    border: transparent;
+}
+
+.forMac button:hover {
+    background-color: #1e6369;
+}
+
+
+.downloadUltaEdit {
+    display: flex;
+    align-items: flex-start;
+    font-size: 19px;
+    margin-top: 100px;
+}
+
+.downloadUltaEdit img {
+    width: 50px;
+}
+
+.downloadUltaEdit h2 {
+    padding: 8px;
+}
+
+.downloadUltaEdit p {
+    padding: 14px 0px;
+}
+
+
+.cardsContainer {
+    /* width: 50vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 90px;
+}
+
+.card {
+    background: #f9f9f9;
+    width: 25vw;
+    height: 25vh;
+    margin: 20px;
+    text-align: center;
+}
+
+.cardContent {
+    padding: 30px;
+}
+
+.countryLang {
+    font-size: 20px;
+}
+
+.country {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.cardsContainer button {
+    /* width: 100px; */
+    padding: 5px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.bit-32 {
+    background: #00b6d1;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.bit-64 {
+    background: #5cb85c;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.bit-32:hover {
+    background-color: #067687;
+}
+
+.bit-64:hover {
+    background-color: #418441;
+}
+
+.joinUltraEdits {
+    background-color: black;
+    height: 150vh;
+}
+
+.joinUltraEdits .mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+
+.joinUltraEdits .mainContent .content {
+    text-align: center;
+    width: 35vw;
+    margin: 150px 200px 0px 0px;
+}
+
+.joinUltraEdits .mainContent .content p {
+    margin: 20px 0px;
+}
+
+.joinUltraEdits .emailForm {
+    background: white;
+    border-radius: 10px;
+    width: 25vw;
+    height: 40vh;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    padding: 10px;
+}
+
+.joinUltraEdits .emailForm .heading {
+    color: #00b6d1;
+    font-size: 22px;
+    margin: 40px 0px 50px 0px;
+}
+
+.joinUltraEdits .emailForm p {
+    color: black;
+    font-size: 12px;
+    margin: 0px 0px 15px 0px;
+}
+
+.joinUltraEdits .emailForm input {
+    width: 225px;
+    height: 30px;
+}
+
+.joinUltraEdits .emailForm button {
+    margin: 5px 0px 0px 0px;
+    width: 230px;
+    height: 40px;
+    background-color: #00b6d1;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.joinUltraEdits .emailForm button:hover {
+    background-color: #03ddff;
+    cursor: pointer;
+}
+
+.joinUltraEdits .about {
+    color: white;
+    width: 75vw;
+    margin: 150px 0px 0px 150px;
+}
+
+.joinUltraEdits .about p {
+    padding: 10px;
+}
+
+.joinUltraEdits .about .heading {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.joinUltraEdits .about a {
+    text-decoration: none;
+    color: #03ddff;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 100px; */
+    margin: 100px 50px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.firstCol {
+    margin-top: 40px;
+}
+
+.secCol {
+    margin-top: -110px;
+}
+
+.thirdCol {
+    margin-top: -90px;
+}
+
+.fourCol {
+    margin-top: -200px;
+}
+
+.fourCol input {
+    width: 200px;
+    height: 30px;
+}
+
+.fourCol input::placeholder {
+    padding: 25px;
+}
+
+.fourCol button {
+    width: 205px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #00b6d1;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.fourCol button:hover {
+    background-color: #03ddff;
+    cursor: pointer;
+}
+
+.col .link {
+    padding: 5px 0px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.footerContent .heading {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.col .link:hover {
+    color: black;
+}
